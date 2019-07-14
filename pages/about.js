@@ -1,10 +1,9 @@
-import Header from "../components/Header";
+// pages/about.js
 
-export default function About() {
-  return (
-    <div>
-      <Header />
-      <p>This is the about page</p>
-    </div>
-  );
+import Layout from "../components/MyLayout.js";
+
+const aboutPageContent = <p>This is the about page</p>;
+
+export default function Index() {
+  return <Layout content={aboutPageContent} />;
 }
