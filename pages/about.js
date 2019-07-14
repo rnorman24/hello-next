@@ -1,4 +1,4 @@
-// pages/about.js
+import Layout from '../components/MyLayout.js'
 
 export default function About() {
   return (
